@@ -15,14 +15,13 @@ q<=q;
 end
 endmodule
 
-module frequency_devider(
+module frequency_divider(
     input clk,Ta,Tb,
     output Qa,Qb
     );
 	  
 	 tff ta (.clk(clk),.T(Ta),.q(Qa));
 	 tff tb (.clk(Qa),.T(Tb),.q(Qb));
-
 
 endmodule
 
