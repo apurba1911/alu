@@ -15,7 +15,7 @@ q<=q;
 end
 endmodule
 
-module frequency_devider(
+module frequency_divider(
     input clk,Ta,Tb,
     output Qa,Qb
     );
