@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module frequency_devider_tb;
+module frequency_divider_tb;
 
 	reg clk;
 	reg Ta;
@@ -8,7 +8,7 @@ module frequency_devider_tb;
 	wire Qa;
 	wire Qb;
 
-	frequency_devider uut (
+	frequency_divider uut (
 		.clk(clk), 
 		.Ta(Ta), 
 		.Tb(Tb), 
